@@ -1,0 +1,120 @@
+page-login {
+  
+    img{
+      width: 50%;
+    }
+    .top-20{
+        margin-top: 2%;
+    }
+    .top-5{
+        margin-top: 5%;
+    }
+    .bottom-5{ 
+        margin-bottom: 5%;
+    }
+
+  .error-message
+  {
+   color: #ffffff;
+  }
+  .go-to-register
+  {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+
+  .submit-btn
+  {
+    border-radius: 6px;
+    font-size: 1.6rem;
+    font-weight: 500;
+  }
+  
+
+   
+    .login-content {
+       
+    
+     
+        .logo-row {
+          padding-top: 100px;
+          padding-bottom: 20px;
+        }
+     
+      
+        ion-row {
+           align-items: center;
+           text-align: center;
+         }
+     
+         ion-item {
+             border-radius: 20px !important;
+             padding-left: 20px !important;
+             font-size: 1.0em;
+             margin-bottom: 10px;
+             border: 9px ;
+             border-bottom: 4px !important;
+             box-shadow: none !important;
+         }
+     
+         .signup-col {
+           margin: 0px 10px 0px 10px;
+           padding-bottom: 5px;
+         }
+     
+        
+          /* boton login */
+         .submit-btn {
+          
+            background: linear-gradient(135deg, #00ffff 0%, #012147 57%); 
+        
+            border-radius: 30px !important;
+         }
+         .sub-btn {
+          
+            background: linear-gradient(135deg, #18055a 0%, #4036da 57%); 
+        
+            border-radius: 30px !important;
+           border: 1.3px solid #3c373d;
+         }
+         h1{
+             color: #0a0325;
+         }
+         .register-btn {
+           color: #0beaf1;
+           font-size: 1.0em;
+         }
+      
+}
+.error{
+    div{
+        background-color:rgb(212, 36, 16)!important;
+    }
+
+}
+ion-content {
+    background: url(../assets/images/logo.jpg) no-repeat center fixed;
+    background-size: cover;
+    &:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-image: linear-gradient(to bottom right,#02362C,#003199);
+        opacity: .3; 
+    }
+}
+
+.date {
+    font-weight: bold;
+    color: #888;
+    padding-right: 24px;
+    font-size: 0.8em;
+}
+
+}
+  
+

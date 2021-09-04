@@ -1,0 +1,7 @@
+{
+  "name": "consul",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
